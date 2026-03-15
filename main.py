@@ -22,9 +22,9 @@ from typing import Optional, Tuple
 from enum import Enum
 
 from config import (
-    OPEN_ID,
-    AREA_ID,
-    EMPLOYEE_ID,
+    #OPEN_ID,
+    #AREA_ID,
+    #EMPLOYEE_ID,
     MAX_CHARGE_TIME,
     BASE_URL,
     POWER_OFF_WINDOW_START_HOUR,
@@ -34,6 +34,9 @@ from config import (
     POWER_OFF_END_TYPE,
     validate_config,
 )
+OPEN_ID=ouis3uETOnZjc6s3OiRwJt78aQcQ
+AREA_ID=6
+EMPLOYEE_ID=1206832
 
 # 重试配置
 MAX_RETRIES = 3          # 最大重试次数
